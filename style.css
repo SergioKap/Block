@@ -1,0 +1,30 @@
+.block {
+    border-radius: 30px;
+    display: inline-block;
+    width: 20%;
+    padding: 70px;
+    border: 2px solid #ff6600;
+    box-shadow: 3px 3px 10px rgba(199, 0, 0, 0.753);
+    margin: 20px;
+    position: relative;
+    background-color: rgba(253, 245, 134, 0.685);
+  }
+  
+  .block::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    width: 120px;
+    height: 20px;
+    background-color: rgba(6, 18, 185, 0.7);
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 200px;
+  }
+  
+  h2 {
+    text-shadow: 1px -1px 0 #acacac, -1px 1px 0 #333;
+  }
+  body {
+    background-color: #373737;
+  }
